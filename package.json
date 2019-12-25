@@ -1,6 +1,6 @@
 {
-  "name": "react-inspector",
-  "version": "4.0.0",
+  "name": "@ndelangen/react-inspector",
+  "version": "5.0.0",
   "description": "Power of Browser DevTools inspectors right inside your React app",
   "@pika/pack": {
     "pipeline": [
@@ -64,7 +64,9 @@
     "storybook": "start-storybook -p 9001",
     "test": "jest src",
     "chromatic": "CHROMATIC_APP_CODE=17yeg4lpa7q chromatic test",
-    "pika": "pika build"
+    "build": "pika build",
+    "release": "pika publish",
+    "version": "npm run build"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
