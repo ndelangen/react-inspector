@@ -5,7 +5,7 @@
 .npmignore
 .vscode
 .travis.yml
-.prettierrc.json
+.prettierrc
 jsconfig.json
 yarn.lock
 

@@ -1,5 +1,4 @@
 import { configure } from '@storybook/react';
-import 'storybook-chromatic';
 
 function loadStories() {
   require('../stories/object-inspector');
